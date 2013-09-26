@@ -1,5 +1,6 @@
 <?php
 
+
 /**
  * Nano
  *
@@ -14,9 +15,9 @@ define('START_TIME', microtime(true));
 define('DS', DIRECTORY_SEPARATOR);
 define('ENV', getenv('APP_ENV'));
 
-define('PATH', dirname(__DIR__) . DS);
-define('APP', PATH . 'app' . DS);
-define('SYS', PATH . 'system' . DS);
+define('ROOT', __DIR__ . DS);
+define('APP', ROOT . 'app' . DS);
+define('NANO', ROOT . 'nano' . DS);
 define('EXT', '.php');
 
-require SYS . 'start' . EXT;
+require NANO . 'start.php';
