@@ -1,4 +1,4 @@
-<?php namespace System\Router;
+<?php namespace Nano\Router;
 
 /**
  * Nano

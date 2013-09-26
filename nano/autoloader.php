@@ -1,4 +1,6 @@
-<?php namespace System;
+<?php 
+
+namespace Nano;
 
 /**
  * Nano
@@ -57,21 +59,19 @@ class Autoloader {
 	public static function load($class) {
 		$file = str_replace(array('\\', '_'), DS, ltrim($class, '\\'));
 		$lower = strtolower($file);
-
 		// find a match after converting indexes and class name to lower case
 		if(array_key_exists(strtolower($class), array_change_key_case(static::$aliases))) {
-			return class_alias(static::$aliases[$class], $class);
+            return class_alias(static::$aliases[$class], $class);
 		}
-
 		foreach(static::$directories as $directory) {
-			if(is_readable($path = $directory . $lower . EXT)) {
-				return require $path;
+            $path = $path = $directory . $lower . EXT;
+			if(is_readable($path)) {
+                return require $path;
 			}
-			else if(is_readable($path = $directory . $file . EXT)) {
+			elseif (is_readable($path = $directory . $file . EXT)) {
 				return require $path;
 			}
 		}
-
 		return false;
 	}
 

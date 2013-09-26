@@ -1,4 +1,6 @@
-<?php namespace System;
+<?php 
+
+namespace Nano;
 
 /**
  * Nano
@@ -39,10 +41,9 @@ class Error {
 	 */
 	public static function exception(Exception $e) {
 		static::log($e);
-
 		// get a error response handler
 		$handler = Error\Report::handler($e, Config::error('report'));
-
+        
 		// generate the output
 		$handler->response();
 

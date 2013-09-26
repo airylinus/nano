@@ -1,4 +1,4 @@
-<?php namespace System;
+<?php namespace Nano;
 
 /**
  * Nano
@@ -12,9 +12,9 @@
 
 use Closure;
 use InvalidArgumentException;
-use System\Response;
-use System\Router;
-use System\View;
+use Nano\Response;
+use Nano\Router;
+use Nano\View;
 
 class Route {
 

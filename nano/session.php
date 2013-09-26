@@ -1,4 +1,4 @@
-<?php namespace System;
+<?php namespace Nano;
 
 /**
  * Nano
@@ -11,7 +11,7 @@
  */
 
 use ErrorException;
-use System\Session\Cargo;
+use Nano\Session\Cargo;
 
 class Session {
 

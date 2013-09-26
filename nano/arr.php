@@ -1,4 +1,4 @@
-<?php namespace System;
+<?php
 
 /**
  * Nano
@@ -9,6 +9,8 @@
  * @link		http://madebykieron.co.uk
  * @copyright	http://unlicense.org/
  */
+
+namespace Nano;
 
 class Arr {
 

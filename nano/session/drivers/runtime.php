@@ -1,4 +1,4 @@
-<?php namespace System\Session\Drivers;
+<?php namespace Nano\Session\Drivers;
 
 /**
  * Nano
@@ -10,7 +10,7 @@
  * @copyright	http://unlicense.org/
  */
 
-use System\Session\Driver;
+use Nano\Session\Driver;
 
 class Runtime extends Driver {
 

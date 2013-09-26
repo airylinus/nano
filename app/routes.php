@@ -10,6 +10,13 @@ Route::get(array('/', 'home'), function() {
 	return View::home($vars);
 });
 
+Route::get(array('/register', 'register'), function() {
+	$words = array('Welcome', 'Bienvenue', 'Willkommen', 'Bienvenido');
+	$vars['welcome'] = Arr::create($words)->shuffle()->first();
+	echo "ttt";
+    return View::home($vars);
+});
+
 /*
  * 404 not found
  */

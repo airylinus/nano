@@ -1,4 +1,4 @@
-<?php namespace System\Request;
+<?php namespace Nano\Request;
 
 /**
  * Nano

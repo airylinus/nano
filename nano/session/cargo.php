@@ -1,4 +1,4 @@
-<?php namespace System\Session;
+<?php namespace Nano\Session;
 
 /**
  * Nano
@@ -10,9 +10,9 @@
  * @copyright	http://unlicense.org/
  */
 
-use System\Arr;
-use System\Config;
-use System\Cookie;
+use Nano\Arr;
+use Nano\Config;
+use Nano\Cookie;
 
 class Cargo {
 

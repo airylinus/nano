@@ -1,4 +1,4 @@
-<?php namespace System;
+<?php 
 
 /**
  * Nano
@@ -9,6 +9,8 @@
  * @link		http://madebykieron.co.uk
  * @copyright	http://unlicense.org/
  */
+
+namespace Nano;
 
 /**
  * Check php version
@@ -49,11 +51,11 @@ if(get_magic_quotes_gpc()) {
 /**
  * Include base classes and functions
  */
-require PATH . 'system/helpers' . EXT;
-require PATH . 'system/error' . EXT;
-require PATH . 'system/arr' . EXT;
-require PATH . 'system/config' . EXT;
-require PATH . 'system/autoloader' . EXT;
+require NANO . '/helpers.php';
+require NANO . '/error.php';
+require NANO . '/arr.php';
+require NANO . '/config.php';
+require NANO . '/autoloader.php';
 
 /**
  * Register the autoloader
@@ -61,7 +63,7 @@ require PATH . 'system/autoloader' . EXT;
 Autoloader::register();
 
 // set the base path to search
-Autoloader::directory(PATH);
+Autoloader::directory(ROOT);
 
 // map application aliases to autoloader so we dont
 // have to fully specify the class namespaces each time.

@@ -1,4 +1,4 @@
-<?php namespace System\Session\Drivers;
+<?php namespace Nano\Session\Drivers;
 
 /**
  * Nano
@@ -10,8 +10,8 @@
  * @copyright	http://unlicense.org/
  */
 
-use System\Session\Driver;
-use System\Database\Query;
+use Nano\Session\Driver;
+use Nano\Database\Query;
 
 class Database extends Driver {
 

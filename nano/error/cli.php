@@ -1,4 +1,4 @@
-<?php namespace System\Error;
+<?php namespace Nano\Error;
 
 /**
  * Nano
@@ -11,7 +11,7 @@
  */
 
 use Exception;
-use System\Error\Message;
+use Nano\Error\Message;
 
 class Cli extends Message {
 

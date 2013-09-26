@@ -1,4 +1,4 @@
-<?php namespace System\Session\Drivers;
+<?php namespace Nano\Session\Drivers;
 
 /**
  * Nano
@@ -10,8 +10,8 @@
  * @copyright	http://unlicense.org/
  */
 
-use System\Cookie as C;
-use System\Session\Driver;
+use Nano\Cookie as C;
+use Nano\Session\Driver;
 use Exception;
 
 class Cookie extends Driver {

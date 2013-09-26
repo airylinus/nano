@@ -1,4 +1,4 @@
-<?php namespace System\Session;
+<?php namespace Nano\Session;
 
 /**
  * Nano

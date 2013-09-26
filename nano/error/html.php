@@ -1,4 +1,4 @@
-<?php namespace System\Error;
+<?php namespace Nano\Error;
 
 /**
  * Nano
@@ -11,8 +11,8 @@
  */
 
 use Exception;
-use System\Error\Message;
-use System\Response;
+use Nano\Error\Message;
+use Nano\Response;
 
 class Html extends Message {
 

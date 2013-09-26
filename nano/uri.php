@@ -1,4 +1,4 @@
-<?php namespace System;
+<?php namespace Nano;
 
 /**
  * Nano
@@ -12,7 +12,7 @@
 
 use ErrorException;
 use OverflowException;
-use System\Request\Server;
+use Nano\Request\Server;
 
 class Uri {
 

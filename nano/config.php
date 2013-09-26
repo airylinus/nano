@@ -1,4 +1,5 @@
-<?php namespace System;
+<?php 
+
 
 /**
  * Nano
@@ -9,6 +10,9 @@
  * @link		http://madebykieron.co.uk
  * @copyright	http://unlicense.org/
  */
+
+namespace Nano;
+
 
 class Config {
 
@@ -38,7 +42,7 @@ class Config {
 			}
 
 			// is the file readable
-			elseif(is_readable($path = APP . 'config' . DS . $file . EXT)) {
+			elseif(is_readable($path = APP . 'config' . DS . $file . ".php")) {
 				static::$array[$file] = require $path;
 			}
 		}

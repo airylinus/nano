@@ -1,4 +1,6 @@
-<?php namespace System\Error;
+<?php 
+
+namespace Nano\Error;
 
 /**
  * Nano
@@ -11,7 +13,7 @@
  */
 
 use Exception;
-use System\Request;
+use Nano\Request;
 
 class Report {
 

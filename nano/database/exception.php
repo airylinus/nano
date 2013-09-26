@@ -1,4 +1,4 @@
-<?php namespace System\Database;
+<?php namespace Nano\Database;
 
 /**
  * Nano

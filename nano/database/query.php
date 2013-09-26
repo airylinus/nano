@@ -1,4 +1,4 @@
-<?php namespace System\Database;
+<?php namespace Nano\Database;
 
 /**
  * Nano
@@ -12,7 +12,7 @@
 
 use PDO;
 use Closure;
-use System\Database as DB;
+use Nano\Database as DB;
 
 class Query extends Builder {
 

@@ -1,4 +1,4 @@
-<?php namespace System\Error;
+<?php namespace Nano\Error;
 
 /**
  * Nano

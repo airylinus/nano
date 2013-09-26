@@ -1,4 +1,4 @@
-<?php namespace System\Database;
+<?php namespace Nano\Database;
 
 /**
  * Nano
@@ -12,7 +12,7 @@
 
 use PDO;
 use PDOException;
-use System\Config;
+use Nano\Config;
 
 abstract class Connector {
 

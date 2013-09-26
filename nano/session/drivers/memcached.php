@@ -1,4 +1,4 @@
-<?php namespace System\Session\Drivers;
+<?php namespace Nano\Session\Drivers;
 
 /**
  * Nano
@@ -11,8 +11,8 @@
  */
 
 use Memcached as M;
-use System\Config;
-use System\Session\Driver;
+use Nano\Config;
+use Nano\Session\Driver;
 
 class Memcached extends Driver {
 

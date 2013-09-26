@@ -13,12 +13,12 @@
 /**
  * Boot the environment
  */
-require SYS . 'boot' . EXT;
+require NANO . 'boot.php';
 
 /**
  * Boot the application
  */
-require APP . 'run' . EXT;
+require APP . 'run.php';
 
 /**
  * Set input

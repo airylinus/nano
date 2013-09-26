@@ -1,4 +1,4 @@
-<?php namespace System\Database\Connectors;
+<?php namespace Nano\Database\Connectors;
 
 /**
  * Nano
@@ -11,7 +11,7 @@
  */
 
 use PDO;
-use System\Database\Connector;
+use Nano\Database\Connector;
 
 class Mysql extends Connector {
 

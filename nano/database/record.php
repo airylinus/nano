@@ -1,6 +1,6 @@
-<?php namespace System\Database;
+<?php namespace Nano\Database;
 
-use System\Database\Query;
+use Nano\Database\Query;
 
 /**
  * Nano

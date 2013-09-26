@@ -1,4 +1,4 @@
-<?php namespace System\Response;
+<?php namespace Nano\Response;
 
 /**
  * Nano
@@ -10,7 +10,7 @@
  * @copyright	http://unlicense.org/
  */
 
-use System\Request;
+use Nano\Request;
 
 class Status {
 
